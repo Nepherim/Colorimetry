@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>$WikiTitle {$Group}/{$Titlespaced}</title>
+	<link rel="stylesheet" type="text/css" href="$SkinDirUrl/default.css" media="screen" title="style (screen)" />
+<!--HTMLHeader-->
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<!--PageHeaderFmt-->
+			<!--wiki:{$Group}.SiteHeader {$SiteGroup}.SiteHeader-->  <!-- DJG: h1->a->sup?! -->
+			<!--/PageHeaderFmt-->
+		</div>
+
+		<div id="menu">
+			<!--PageTabsFmt-->
+			<!--wiki:{$Group}.SiteNav {$SiteGroup}.SiteNav -->
+			<!--/PageTabsFmt-->
+		</div>
+	</div>
+
+	<div id="page">
+		<div id="content">
+			<!--PageTitleGroupFmt-->
+			<a href='{$ScriptUrl}/{$Group}' class="pagegroup">{$Group}</a>
+			<!--/PageTitleGroupFmt-->
+			<!--PageTitleFmt-->
+			<h2 class='page-head'><a href='{$PageUrl}'>{$Titlespaced}</a></h2>
+			<!--/PageTitleFmt-->
+
+			<!--PageText-->
+		</div>
+
+		<div id="sidebar">
+			<!--PageActionFmt-->
+				<div class="pageactions">
+				<!--wiki:{$Group}.PageActions {$SiteGroup}.PageActions-->
+				</div>
+			<!--/PageActionFmt-->
+
+			<!--PageTitleGroupFmt-->
+				<a href='{$ScriptUrl}/{$Group}' class="pagegroup">{$Group}</a>
+			<!--/PageTitleGroupFmt-->
+
+			<ul>
+				<li id="search">
+					<h2>$[Search]</h2>
+					<form id="searchform" action='$ScriptUrl' method="get"><fieldset>
+						<input type='hidden' name='n' value='{$FullName}' />
+						<input type='hidden' name='action' value='search' />
+						<p>
+							<input id='s' class='text' type='text' name='q' value="" />
+							<input id='searchsubmit' class='button' type='submit' value='$[Go]' />
+						</p>
+					</fieldset></form>
+				</li>
+			</ul>
+
+			<!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar-->
+		</div>
+
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+
+	<div id="footer">
+		<div id="footer-inner">
+			<!--PageFooterFmt-->
+				<!--wiki:{$Group}.SiteFooter {$SiteGroup}.SiteFooter-->
+			<!--/PageFooterFmt-->
+			<p class="credits">
+				<a href="http://pmwiki.com/Cookbook/Choice">Choice</a> $[theme originally by] <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>, $[adapted by] <a href="http://solidgone.org/Skins">David Gilbert</a>, $[powered by] <a href="http://pmwiki.com/">PmWiki</a>
+			</p>
+		</div>
+	</div>
+
+<!--HTMLFooter-->
+</body>
+</html>
