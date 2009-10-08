@@ -6,7 +6,7 @@ body {
 	font-size: 13px;
 	color: #D4D4D4;
 }
-h1, h2, h3, h2.page-head, #sidebar .sidehead {
+h1, h2, h3, #sidebar .sidehead {
 	margin: 0;
 	text-transform: lowercase;
 	font-weight: normal;
@@ -144,27 +144,33 @@ textarea { width: 99%; }
 }
 
 /* Post */
-.post .title, #content h2.page-head, #content h2 {
+.post .title, #content h2, #content h3 {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	padding: 0 0 7px 18px;
 	background: url(images/img03.gif) no-repeat left 50%;
 	border-bottom: 1px solid #86910F;
 }
-#content h2.page-head {
+#content h2, #content h3 {
 	margin-top: 0;
 }
-#content h2.page-head a:link, #content h2.page-head a:visited {
+#content h2 a:link, #content h2 a:visited,
+#content h3 a:link, #content h3 a:visited {
 	text-decoration: none;
 	color: #fff;
 }
-#content h2.page-head a:hover {
+#content h2 a:hover, #content h3 a:hover {
 	text-decoration: none;
 	color: #C1D11C;
 }
 .post .meta {
 	border: 1px solid #86910F;
-	padding: 15px 10px 30px 10px;
+	padding: 10px;
+	margin-bottom: 50px;
+	font-size: 11px;
+}
+.post .meta a {
+	font-size: 11px;
 }
 .post .meta p {
 	margin: 0;
@@ -173,9 +179,12 @@ textarea { width: 99%; }
 }
 .post .meta .byline {
 	float: left;
+	padding-right: 50px;
 }
 .post .meta .links {
 	float: right;
+	width: 55%;
+	text-align: right;
 }
 .post .meta .more {
 	padding: 0 20px 0 18px;
@@ -184,6 +193,7 @@ textarea { width: 99%; }
 .post .meta .comments {
 	padding-left: 22px;
 	background: url(images/img07.gif) no-repeat left center;
+	white-space: nowrap;
 }
 .post .meta b {
 	display: none;
@@ -281,6 +291,13 @@ html>body #footer {
 #legal a, .credits a {
 	color: #A0A0A0;
 }
+/* --------- Container Hacks ----------- */
+/* Used to ensure the siteHeader stays within the confines of the containing object */
+.force_contain:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.force_contain { display: inline-block; _height: 1%; }
+/* Hides from IE-mac \*/
+.force_contain { display: block; }
+/* End hide from IE-mac */
 
 /* PmWiki Standard */
 .indent { margin-left:40px; }
@@ -301,10 +318,24 @@ a.createlink { text-decoration: none; padding-left: 1px; position:relative; top:
 .difftime { color: #000; }
 
 /* PmWiki Additions */
-/*#sidebar .pageactions { margin: -40px 0 0 -100px; padding-top: 5px; }*/
 #sidebar .pageactions { margin: -40px 0 0 -100px; padding-top: 5px; position: relative; }  /* Relative for IE6/7 */
 #sidebar .pageactions ul { text-align: right; margin-bottom: 30px; }
 #sidebar .pageactions ul li { display: inline; padding-left: 5px; }
 #sidebar .pageactions ul li a { 	font-size: 11px; text-decoration: none; text-transform: lowercase; color: #D4D4D4; }
 #sidebar li#search { padding-left: 0; }
 #sidebar .pagegroup { visibility: hidden; }  /* hidden div to pad for when #content .pagegroup is displayed */
+
+/* BlogIt */
+.blogit-clear { clear: both; }
+.editlink { padding-left: 10px; }
+.blogit-comment-header { color: #fff; text-transform: lowercase; }
+.blogit-readmore { display: block; margin-bottom: -25px; padding-left: 10px; text-transform: lowercase;  } /* margin counteract effect of p.vspace around .blogit-readmore */
+.blogit-listmore { margin: -30px 0 30px; font-style: italic; }
+.blogit-submit-row { padding-top: 10px; }
+.blogit-submit-row img { vertical-align: bottom; padding-bottom: 1px; }
+.blogit-page-navigation { margin: 1.2em 0; }
+.blogit-older-entries { float: right; }
+.blogit-newer-entries { float: left; }
+.blogit-older-entries, .blogit-newer-entries { font-size: 1.3em; font-weight: bold; }
+.blogit-newer-entries a { padding-left: 18px; background: url(images/mini-nav-left.gif) no-repeat left center; }
+.blogit-older-entries a { padding-right: 18px; background: url(images/mini-nav-right.gif) no-repeat right center; }
