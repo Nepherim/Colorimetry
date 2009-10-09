@@ -151,7 +151,7 @@ textarea { width: 99%; }
 .post .meta {
 	border: 1px solid;
 	padding: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 	font-size: 11px;
 }
 .post .meta a {
@@ -163,7 +163,6 @@ textarea { width: 99%; }
 }
 .post .meta .byline {
 	float: left;
-	padding-right: 50px;
 }
 .post .meta .links {
 	float: right;
@@ -289,23 +288,23 @@ a.createlink { text-decoration: none; padding-left: 1px; position:relative; top:
 .quickref { background-color: #EDEDED !important; }
 
 /* PmWiki Additions */
-#sidebar .pageactions { margin: -40px 0 0 -100px; padding-top: 5px; position: relative; }  /* Relative for IE6/7 */
-#sidebar .pageactions ul { text-align: right; margin-bottom: 30px; }
+#sidebar .pageactions { margin: -40px 0 0 -100px; height: 56px; padding-top: 5px; position: relative; }  /* Relative for IE6/7 */
+#sidebar .pageactions ul { text-align: right; }
 #sidebar .pageactions ul li { display: inline; padding-left: 5px; }
 #sidebar .pageactions ul li a { font-size: 11px; text-decoration: none; text-transform: lowercase; }
 #sidebar .pagegroup { visibility: hidden; }  /* hidden div to pad for when #content .pagegroup is displayed */
 
 /* BlogIt */
 .blogit-clear { clear: both; }
-.editlink { padding-left: 10px; }
+.editlink, .blogit-editlink { padding-left: 10px; }
 .blogit-comment-header { text-transform: lowercase; }
 .blogit-readmore { display: block; margin-bottom: -25px; padding-left: 10px; text-transform: lowercase;  } /* margin counteract effect of p.vspace around .blogit-readmore */
 .blogit-listmore { margin: -30px 0 30px; text-align: right; }
 .blogit-submit-row { padding-top: 10px; }
 .blogit-submit-row img { vertical-align: bottom; padding-bottom: 1px; }
-.blogit-page-navigation { margin: 1.2em 0; }
-.blogit-older-entries { float: right; }
-.blogit-newer-entries { float: left; }
-.blogit-older-entries, .blogit-newer-entries { font-size: 1.3em; font-weight: bold; }
-.blogit-newer-entries a { padding-left: 18px; background: url(images/mini-nav-left.gif) no-repeat left center; }
-.blogit-older-entries a { padding-right: 18px; background: url(images/mini-nav-right.gif) no-repeat right center; }
+.blogit-page-navigation,.page-navigation { margin: 1.2em 0; }
+.blogit-older-entries, .next-entries { float: right; }
+.blogit-newer-entries, .previous-entries { float: left; }
+.blogit-older-entries, .blogit-newer-entries, .previous-entries, .next-entries { font-size: 1.3em; font-weight: bold; }
+.blogit-newer-entries a, .previous-entries a { padding-left: 18px; background: url(images/mini-nav-left.gif) no-repeat left center; }
+.blogit-older-entries a, .next-entries a { padding-right: 18px; background: url(images/mini-nav-right.gif) no-repeat right center; }
