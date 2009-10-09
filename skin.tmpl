@@ -3,6 +3,7 @@
 <head>
 	<title>$WikiTitle {$Group}/{$Titlespaced}</title>
 	<link rel="stylesheet" type="text/css" href="$SkinDirUrl/default.css" media="screen" title="style (screen)" />
+	<link rel="stylesheet" type="text/css" href="$SkinDirUrl/color-$SkinColor/default.css" media="screen" title="style (screen)" />
 <!--HTMLHeader-->
 </head>
 <body>
@@ -43,9 +44,9 @@
 				<a href='{$ScriptUrl}/{$Group}' class="pagegroup">{$Group}</a>
 			<!--/PageTitleGroupFmt-->
 
+			<p class="sidehead">$[Search]</p>
 			<ul>
 				<li id="search">
-					<h2>$[Search]</h2>
 					<form id="searchform" action='$ScriptUrl' method="get"><fieldset>
 						<input type='hidden' name='n' value='{$FullName}' />
 						<input type='hidden' name='action' value='search' />

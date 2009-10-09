@@ -1,0 +1,131 @@
+body {
+	background: #666159 url(img01.jpg) repeat-x;
+	color: #D4D4D4;
+}
+h1, h2, h3, #sidebar .sidehead {
+	color: #FFFFFF;
+}
+a:link {
+	color: #C1D11C;
+}
+a:hover, a:active {
+	color: #C1D11C;
+}
+a:visited {
+	color: #C1D11C;
+}
+
+/* Form */
+input, textarea, select {
+	border-color: #F0F0F0;
+	color: #333333;
+}
+
+/* Header */
+#logo h1 {
+	color: #FFFFFF;
+}
+#logo h1 a {
+	color: #FFFFFF;
+}
+#logo h2, #logo .sitetag {
+	color: #A0A0A0;
+}
+
+/* Menu */
+#menu a {
+	background: #F5F5F5;
+	color: #000000;
+}
+#menu a:hover {
+	border-top-color: #C1D11C;
+	border-bottom-color: #C1D11C;
+}
+#menu .active a, #menu a.selflink {
+	border-top-color: #C1D11C;
+	border-bottom-color: #C1D11C;
+}
+
+/* Page */
+
+/* Content */
+
+/* Post */
+.post .title, #content h2, #content h3 {
+	background: url(img03.gif) no-repeat left 50%;
+	border-bottom-color: #86910F;
+}
+#content h2 a:link, #content h2 a:visited,
+#content h3 a:link, #content h3 a:visited {
+	color: #fff;
+}
+#content h2 a:hover, #content h3 a:hover {
+	color: #C1D11C;
+}
+.post .meta {
+	border-color: #86910F;
+}
+.post .meta p {
+	color: #999999;
+}
+.post .meta .more {
+	background: url(img06.gif) no-repeat left center;
+}
+.post .meta .comments {
+	background: url(img07.gif) no-repeat left center;
+}
+
+/* Sidebar */
+#sidebar h2, #sidebar .sidehead {
+	background: url(img04.gif) no-repeat left 50%;
+	border-bottom-color: #86910F;
+}
+
+/* Search */
+#s {
+	border-color: #F0F0F0;
+}
+#x, #searchsubmit {
+	background: #C1D11C;
+	color: #FFFFFF;
+}
+
+/* Boxes */
+.box1 {
+	background: url(img05.gif) no-repeat;
+}
+.box2 {
+	color: #BABABA;
+}
+.box2 h2 {
+	background: url(img10.gif) repeat-x left bottom;
+	color: #FFFFFF;
+}
+.box2 a:link, .box2 a:hover, .box2 a:active, .box2 a:visited  {
+	color: #EDEDED;
+}
+
+/* Footer */
+#footer {
+	background: #666159 url(img02.jpg) repeat-x left top;
+}
+#legal, .credits {
+	color: #A0A0A0;
+}
+#legal a, .credits a {
+	color: #A0A0A0;
+}
+
+/* PmWiki Standard */
+.wikimessage {color: #DB5800 }
+
+/* PmWiki Mods */
+#wikitext hr {border-color: #ECECEC; }
+.difftime { color: #000; }
+
+/* PmWiki Additions */
+
+/* BlogIt */
+.blogit-comment-header { color: #fff; }
+.blogit-newer-entries a { background: url(mini-nav-left.gif) no-repeat left center; }
+.blogit-older-entries a { background: url(mini-nav-right.gif) no-repeat right center; }

@@ -18,7 +18,7 @@ if (!empty($PageLogoUrl)) {
 		'#logo .sitetitle a{height:' .$PageLogoUrlHeight .'; background: url(' .$PageLogoUrl .') left 16px no-repeat} '.
 		'#logo .sitetitle a, #logo .sitetag{padding-left: ' .$PageLogoUrlWidth .'} ';
 }
-$SkinColor = dg_SetSkinColor('green_muted', array('blue_bold','blue_muted','green_bold','green_muted','orange_bold','orange_muted'));
+$SkinColor = dg_SetSkinColor('green', array('green','orange','blue','purple','yellow','pink'));
 
 # ----------------------------------------
 # - Standard Skin Setup

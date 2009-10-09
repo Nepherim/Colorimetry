@@ -1,16 +1,13 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #666159 url(images/img01.jpg) repeat-x;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 13px;
-	color: #D4D4D4;
 }
 h1, h2, h3, #sidebar .sidehead {
 	margin: 0;
 	text-transform: lowercase;
 	font-weight: normal;
-	color: #FFFFFF;
 }
 h1, h2.page-head {
 	letter-spacing: -1px;
@@ -26,14 +23,11 @@ p, ul, ol {
 	font-size: 13px;
 }
 a:link {
-	color: #C1D11C;
 }
 a:hover, a:active {
 	text-decoration: none;
-	color: #C1D11C;
 }
 a:visited {
-	color: #C1D11C;
 }
 img {
 	border: none;
@@ -61,12 +55,11 @@ legend {
 	display: none;
 }
 input, textarea, select {
-	border:1px solid #F0F0F0;
+	border:1px solid;
 	margin-right:5px;
 	padding:2px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 13px;
-	color: #333333;
 }
 textarea { width: 99%; }
 
@@ -81,19 +74,16 @@ textarea { width: 99%; }
 }
 #logo h1 {
 	font-size: 38px;
-	color: #FFFFFF;
 }
 #logo h1 sup {
 	vertical-align: text-top;
 	font-size: 24px;
 }
 #logo h1 a {
-	color: #FFFFFF;
 }
 #logo h2, #logo .sitetag {
 	margin-top: -4px;
 	font-size: 12px;
-	color: #A0A0A0;
 }
 #logo a {
 	text-decoration: none;
@@ -114,21 +104,19 @@ textarea { width: 99%; }
 #menu a {
 	display: block;
 	float: left;
-	background: #F5F5F5;
 	margin-left: 5px;
 	padding: 7px 20px;
 	text-decoration: none;
 	font-size: 13px;
-	color: #000000;
 }
 #menu a:hover {
-	border-top: 5px solid #C1D11C;
-	border-bottom: 3px solid #C1D11C;
+	border-top: 5px solid;
+	border-bottom: 3px solid;
 	text-decoration: none;
 }
 #menu .active a, #menu a.selflink {
-	border-top: 5px solid #C1D11C;
-	border-bottom: 3px solid #C1D11C;
+	border-top: 5px solid;
+	border-bottom: 3px solid;
 }
 
 /* Page */
@@ -148,8 +136,7 @@ textarea { width: 99%; }
 	margin-bottom: 20px;
 	margin-top: 20px;
 	padding: 0 0 7px 18px;
-	background: url(images/img03.gif) no-repeat left 50%;
-	border-bottom: 1px solid #86910F;
+	border-bottom: 1px solid;
 }
 #content h2, #content h3 {
 	margin-top: 0;
@@ -157,14 +144,12 @@ textarea { width: 99%; }
 #content h2 a:link, #content h2 a:visited,
 #content h3 a:link, #content h3 a:visited {
 	text-decoration: none;
-	color: #fff;
 }
 #content h2 a:hover, #content h3 a:hover {
 	text-decoration: none;
-	color: #C1D11C;
 }
 .post .meta {
-	border: 1px solid #86910F;
+	border: 1px solid;
 	padding: 10px;
 	margin-bottom: 50px;
 	font-size: 11px;
@@ -175,7 +160,6 @@ textarea { width: 99%; }
 .post .meta p {
 	margin: 0;
 	line-height: normal;
-	color: #999999;
 }
 .post .meta .byline {
 	float: left;
@@ -188,11 +172,9 @@ textarea { width: 99%; }
 }
 .post .meta .more {
 	padding: 0 20px 0 18px;
-	background: url(images/img06.gif) no-repeat left center;
 }
 .post .meta .comments {
 	padding-left: 22px;
-	background: url(images/img07.gif) no-repeat left center;
 	white-space: nowrap;
 }
 .post .meta b {
@@ -219,8 +201,7 @@ textarea { width: 99%; }
 #sidebar h2, #sidebar .sidehead {
 	margin-bottom: 10px;
 	padding-left: 15px;
-	background: url(images/img04.gif) no-repeat left 50%;
-	border-bottom: 1px solid #86910F;
+	border-bottom: 1px solid;
 	font-size: 16px;
 }
 
@@ -234,31 +215,25 @@ textarea { width: 99%; }
 	width: 110px;
 	margin-right: 5px;
 	padding: 2px;
-	border: 1px solid #F0F0F0;
+	border: 1px solid;
 }
 #x, #searchsubmit {
 	padding: 4px 4px;
-	background: #C1D11C;
 	border: none;
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10px;
-	color: #FFFFFF;
 }
 
 /* Boxes */
 .box1 {
 	padding: 20px;
-	background: url(images/img05.gif) no-repeat;
 }
 .box2 {
-	color: #BABABA;
 }
 .box2 h2 {
 	margin-bottom: 15px;
-	background: url(images/img10.gif) repeat-x left bottom;
 	font-size: 16px;
-	color: #FFFFFF;
 }
 .box2 ul {
 	margin: 0;
@@ -266,7 +241,6 @@ textarea { width: 99%; }
 	list-style: none;
 }
 .box2 a:link, .box2 a:hover, .box2 a:active, .box2 a:visited  {
-	color: #EDEDED;
 }
 
 /* Footer */
@@ -274,7 +248,6 @@ textarea { width: 99%; }
 	height: 100px;
 	min-height: 74px;
 	padding: 25px 0 0 0;
-	background: #666159 url(images/img02.jpg) repeat-x left top;
 }
 html>body #footer {
 	height: auto;
@@ -284,12 +257,10 @@ html>body #footer {
 }
 #legal, .credits {
 	clear: both;
-	padding-top: 30px;
+	padding-top: 15px;
 	text-align: center;
-	color: #A0A0A0;
 }
 #legal a, .credits a {
-	color: #A0A0A0;
 }
 /* --------- Container Hacks ----------- */
 /* Used to ensure the siteHeader stays within the confines of the containing object */
@@ -303,34 +274,33 @@ html>body #footer {
 .indent { margin-left:40px; }
 .outdent { margin-left:40px; text-indent:-40px; }
 fieldset { border: none; }
-.wikimessage {padding-bottom: 15px; color: #DB5800; font-weight: bold; font-size: 130%; }
+.wikimessage {padding-bottom: 15px; font-weight: bold; font-size: 130%; }
 .quickref p { margin:0; padding:0;}
 .quickref br { display: none; }
 
 /* PmWiki Mods */
 a.createlink { text-decoration: none; padding-left: 1px; position:relative; top:-0.5em; }
 #menu a.createlink { display: none; }
-#wikitext hr {border:2px solid #ECECEC; margin:2em 0}
+#wikitext hr { border:2px solid; margin:2em 0; }
 #wikitext .escaped { overflow: auto; height: auto; width: 90%; margin: 1.5em auto; padding: .15em; }
 #wikitext .quickref p, #wikitext .quickref .outdent, #wikitext .quickref div, #wikitext .quickref strong {font-size:1em; margin:0; text-align:left; text-indent:0; line-height: 2em}
 #wikiedit, #wikiedit form input[type=submit] { margin-top: 25px; }
 .pagegroup { text-decoration: none; }
-.difftime { color: #000; }
+.quickref { background-color: #EDEDED !important; }
 
 /* PmWiki Additions */
 #sidebar .pageactions { margin: -40px 0 0 -100px; padding-top: 5px; position: relative; }  /* Relative for IE6/7 */
 #sidebar .pageactions ul { text-align: right; margin-bottom: 30px; }
 #sidebar .pageactions ul li { display: inline; padding-left: 5px; }
-#sidebar .pageactions ul li a { 	font-size: 11px; text-decoration: none; text-transform: lowercase; color: #D4D4D4; }
-#sidebar li#search { padding-left: 0; }
+#sidebar .pageactions ul li a { font-size: 11px; text-decoration: none; text-transform: lowercase; }
 #sidebar .pagegroup { visibility: hidden; }  /* hidden div to pad for when #content .pagegroup is displayed */
 
 /* BlogIt */
 .blogit-clear { clear: both; }
 .editlink { padding-left: 10px; }
-.blogit-comment-header { color: #fff; text-transform: lowercase; }
+.blogit-comment-header { text-transform: lowercase; }
 .blogit-readmore { display: block; margin-bottom: -25px; padding-left: 10px; text-transform: lowercase;  } /* margin counteract effect of p.vspace around .blogit-readmore */
-.blogit-listmore { margin: -30px 0 30px; font-style: italic; }
+.blogit-listmore { margin: -30px 0 30px; text-align: right; }
 .blogit-submit-row { padding-top: 10px; }
 .blogit-submit-row img { vertical-align: bottom; padding-bottom: 1px; }
 .blogit-page-navigation { margin: 1.2em 0; }
