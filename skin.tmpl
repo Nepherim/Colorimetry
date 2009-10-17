@@ -44,6 +44,7 @@
 				<a href='{$ScriptUrl}/{$Group}' class="pagegroup">{$Group}</a>
 			<!--/PageTitleGroupFmt-->
 
+			<!--PageSearchFmt-->
 			<p class="sidehead">$[Search]</p>
 			<ul>
 				<li id="search">
@@ -57,8 +58,11 @@
 					</fieldset></form>
 				</li>
 			</ul>
+			<!--/PageSearchFmt-->
 
+			<!--PageRightFmt-->
 			<!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar-->
+			<!--/PageRightFmt-->
 		</div>
 
 		<div style="clear: both;">&nbsp;</div>
@@ -70,7 +74,7 @@
 				<!--wiki:{$Group}.SiteFooter {$SiteGroup}.SiteFooter-->
 			<!--/PageFooterFmt-->
 			<p class="credits">
-				<a href="http://pmwiki.com/Cookbook/Choice">Choice</a> $[theme originally by] <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>, $[adapted by] <a href="http://solidgone.org/Skins">David Gilbert</a>, $[powered by] <a href="http://pmwiki.com/">PmWiki</a>
+				<a href="http://pmwiki.com/Cookbook/Choice">Choice</a> $[theme originally by] <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>, $[adapted by] <a href="http://solidgone.org/Skins">David Gilbert</a>, $[powered by] <!--function:dg_PoweredBy-->
 			</p>
 		</div>
 	</div>

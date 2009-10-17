@@ -85,7 +85,7 @@ input, textarea, select {
 #s {
 	border-color: #DB6100;
 }
-#x, #searchsubmit {
+#x, #searchsubmit, .button {
 	background: #E67317;
 	color: #FFFFFF;
 }

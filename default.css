@@ -65,7 +65,6 @@ textarea { width: 99%; }
 
 /* Header */
 #header {
-	width: 850px;
 	height: 82px;
 	margin: 0 auto 40px auto;
 }
@@ -121,14 +120,12 @@ textarea { width: 99%; }
 
 /* Page */
 #page, #footer-inner {
-	width: 850px;
 	margin: 0 auto;
 }
 
 /* Content */
 #content {
 	float: left;
-	width: 600px;
 }
 
 /* Post */
@@ -183,7 +180,6 @@ textarea { width: 99%; }
 /* Sidebar */
 #sidebar {
 	float: right;
-	width: 195px;
 }
 #sidebar ul {
 	margin: 0;
@@ -211,17 +207,18 @@ textarea { width: 99%; }
 	margin-bottom: 20px;
 }
 #s {
-	width: 110px;
+	width: 70%;
 	margin-right: 5px;
 	padding: 2px;
 	border: 1px solid;
 }
-#x, #searchsubmit {
+#x, #searchsubmit, .button {
 	padding: 4px 4px;
 	border: none;
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10px;
+	cursor: pointer;
 }
 
 /* Boxes */
