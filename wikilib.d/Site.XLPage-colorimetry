@@ -8,5 +8,5 @@ host=127.0.0.1
 name=Site.XLPage-colorimetry
 rev=6
 targets=
-text=### Colorimetry Template%0a  'Search' => '',%0a  'theme adapted by' => '',%0a  'Powered by' => '',%0a  'Page last modified on {*$LastModified}' => ''%0a
+text=### Colorimetry Template%0a  'Search' => '',%0a  'theme adapted by' => '',%0a  'Powered by' => '',%0a  'Page last modified on' => ''%0a
 
