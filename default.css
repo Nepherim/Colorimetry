@@ -17,7 +17,7 @@ h2, #sidebar .sidehead {
 	font-size: 23px;
 }
 p, ul, ol {
-	margin: 0 0 2em 0;
+	margin-bottom: 1.2em;
 	text-align: justify;
 	line-height: 26px;
 	font-size: 13px;
