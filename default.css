@@ -81,7 +81,6 @@ textarea { width: 99%; }
 #logo h1 a {
 }
 #logo h2, #logo .sitetag {
-	margin-top: -4px;
 	font-size: 12px;
 }
 #logo a {
@@ -146,7 +145,6 @@ textarea { width: 99%; }
 	text-decoration: none;
 }
 .post .meta {
-	border: 1px solid;
 	padding: 10px;
 	margin-top: 25px;
 	font-size: 11px;
@@ -163,7 +161,7 @@ textarea { width: 99%; }
 }
 .post .meta .links {
 	float: right;
-	width: 60%;
+	width: 70%;
 	text-align: right;
 }
 .post .meta .more {
@@ -312,3 +310,5 @@ a.createlink { text-decoration: none; padding-left: 1px; position:relative; top:
 .blogit-newer-entries a, .previous-entries a { padding-left: 18px; background: url(images/mini-nav-left.gif) no-repeat left center; }
 .blogit-older-entries a, .next-entries a { padding-right: 18px; background: url(images/mini-nav-right.gif) no-repeat right center; }
 .entry {	margin-bottom: 60px; }
+a.bi-link-blog-edit:not([href*="bi_mode=ajax"]):not([rel="tag"]) {margin-left: 10px;}
+.blogit-comment-form, .blogit-comment-admin-menu {color: #000 !important;}

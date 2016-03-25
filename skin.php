@@ -9,7 +9,7 @@
  */
 global $FmtPV;
 $FmtPV['$SkinName'] = '"Colorimetry"';
-$FmtPV['$SkinVersion'] = '"1.2.1"';
+$FmtPV['$SkinVersion'] = '"1.2.2"';
 
 global $PageLogoUrl, $PageLogoUrlHeight, $PageLogoUrlWidth, $HTMLStylesFmt ,$SkinTheme;
 if (!empty($PageLogoUrl)) {
